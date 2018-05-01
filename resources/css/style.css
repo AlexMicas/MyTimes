@@ -1,0 +1,41 @@
+/* General */
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+a {
+  color: black;
+}
+/* Header */
+
+header {
+  display: flex;
+  align-items: center;
+  font-family: "Verdana", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+  border-bottom: 1px solid black;
+  height: 80px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+}
+
+.logo img {
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
+}
+.logo span {
+  color: MediumAquamarine;
+}
+
+header nav {
+  padding-right: 40px;
+}
